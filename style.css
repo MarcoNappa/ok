@@ -14,7 +14,7 @@ body {
     width: 100%;
     justify-content: center;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1OZbspWnly1UcBwWZRmpBeLWD_hY80NDjGg&s);
-    background-size: cover;
+    background-size: contain;
     background-repeat: repeat;
 }
 
