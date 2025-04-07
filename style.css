@@ -1,0 +1,47 @@
+@media screen and (min-width >=650px) {
+    body {
+        background-size: contain;
+    }
+
+    .invite {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+body {
+    font-size: 28px;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    background-image: url(https://raw.githubusercontent.com/MarcoNappa/ok/fe471b9b1d099b15a1e6394946dccff3985a6e5b/INVITO/img/back.jpeg);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.header {
+    text-align: center;
+}
+
+.invite {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    border: 15px pink outset;
+}
+
+.section {
+    margin: 15px;
+    text-align: center;
+}
+
+.section1,
+.section2 {
+    padding: 15px;
+    background-color: rgba(253, 227, 194, 0.568);
+    min-height: 250px;
+}
+
+.footer {
+    text-align: center;
+    background-color: rgb(253, 227, 194);
+}
